@@ -11,8 +11,8 @@ function App() {
   const [successMessage, setSuccessMessage] = useState("");
   const [currentInput, setCurrentInput] = useState("");
 
-  // function to handle operator
-  function handleOperator(selectedOperator) {
+  // function to handle operator.
+  function handleOperator(selectedOperator) { 
     setOperator(selectedOperator);
     setErrorMessage("");
     setSuccessMessage("");
